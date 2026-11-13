@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/inversores", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/inversores", "destination": "/index.html" },
+    { "source": "/inversores/:path*", "destination": "/:path*" },
+
+    { "source": "/habitaciones", "destination": "https://alquilerporhabitaciones.vercel.app/habitaciones" },
+    { "source": "/habitaciones/:path*", "destination": "https://alquilerporhabitaciones.vercel.app/habitaciones/:path*" },
+
+    { "source": "/turistico", "destination": "https://alquilerturistico.vercel.app/turistico" },
+    { "source": "/turistico/:path*", "destination": "https://alquilerturistico.vercel.app/turistico/:path*" }
+  ]
+}
