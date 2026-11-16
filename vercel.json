@@ -10,6 +10,9 @@
     { "source": "/habitaciones/:path*", "destination": "https://alquilerporhabitaciones.vercel.app/habitaciones/:path*" },
 
     { "source": "/turistico", "destination": "https://alquilerturistico.vercel.app/turistico" },
-    { "source": "/turistico/:path*", "destination": "https://alquilerturistico.vercel.app/turistico/:path*" }
+    { "source": "/turistico/:path*", "destination": "https://alquilerturistico.vercel.app/turistico/:path*" },
+
+    { "source": "/venta", "destination": "https://ventaayp.vercel.app/venta" },
+    { "source": "/venta/:path*", "destination": "https://ventaayp.vercel.app/venta/:path*" }
   ]
 }
